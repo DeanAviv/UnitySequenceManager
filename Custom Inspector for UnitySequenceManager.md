@@ -1,3 +1,6 @@
+### Custom Inspector Documentation README
+
+```markdown
 # Custom Inspector for UnitySequenceManager
 
 This document provides information about the custom inspector tool included in the UnitySequenceManager package. The custom inspector allows for easy management of sequences directly within the Unity Editor.
@@ -159,3 +162,14 @@ namespace UnitySequenceManager.Editor
         }
     }
 }
+```
+
+## Additional Notes
+
+- Ensure that the component you are using with the custom inspector implements the `ISequence` interface.
+- Only public methods with no parameters and a void return type can be added as actions to the sequence.
+
+This custom inspector provides a powerful and flexible way to manage sequences directly within the Unity Editor, enhancing your workflow and making it easier to test and configure sequences.
+```
+
+This `README` file provides comprehensive documentation for the custom inspector tool, explaining how to install, use, and integrate it with components that implement the `ISequence` interface. It also includes a step-by-step guide and example to help users understand how to utilize the custom inspector effectively.
