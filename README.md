@@ -9,8 +9,6 @@ A flexible Unity tool for creating and managing action sequences using async/awa
 - Run sequences with optional delays.
 - Utilize Dependency Injection for easy integration and testing.
 - Support for conditional, looping, and delayed actions.
-- Debug and visualize sequences using built-in tools.
-- Custom inspector for managing sequences directly in the Unity Editor.
 
 ## Installation
 
