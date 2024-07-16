@@ -9,6 +9,8 @@ A flexible Unity tool for creating and managing action sequences using async/awa
 - Run sequences with optional delays.
 - Utilize Dependency Injection for easy integration and testing.
 - Support for conditional, looping, and delayed actions.
+- Custom inspector for managing sequences directly in the Unity Editor.
+- Custom attribute to specify classes using the custom inspector
 
 ## Installation
 
@@ -29,6 +31,7 @@ A flexible Unity tool for creating and managing action sequences using async/awa
 using UnityEngine;
 using Zenject;
 
+[Sequence] // Add this attribute
 public class SimpleMoveSequence : MonoBehaviour, ISequence
 {
     public bool IsRunning { get; private set; }
